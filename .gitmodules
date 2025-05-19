@@ -2,6 +2,7 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
 [submodule "password-store"]
 	path = password-store
 	url = https://github.com/vunguyen4920/password-store.git
