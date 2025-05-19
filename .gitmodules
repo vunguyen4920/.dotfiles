@@ -6,6 +6,8 @@
 [submodule "password-store"]
 	path = password-store
 	url = https://github.com/vunguyen4920/password-store.git
+	branch = master
 [submodule "config/nvim"]
 	path = config/nvim
 	url = https://github.com/vunguyen4920/can-i-kickit.git
+	branch = master
