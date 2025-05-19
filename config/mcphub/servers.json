@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "git": {
+      "args": ["mcp-server-git"],
+      "command": "uvx"
+    },
+    "context7": {
+      "args": ["-y", "@upstash/context7-mcp@latest"],
+      "command": "npx"
+    }
+  },
+  "nativeMCPServers": []
+}

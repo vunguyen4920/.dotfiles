@@ -1,0 +1,13 @@
+[core]
+	editor = nvim
+[user]
+	name = Vu Nguyen
+	email = vunguyen4920@gmail.com
+[credential]
+	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[init]
+	defaultBranch = master
+[pull]
+	rebase = true

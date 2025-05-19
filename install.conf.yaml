@@ -1,0 +1,17 @@
+- clean: ["~"]
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.vimrc: vimrc
+    ~/.zshenv: zshenv
+    ~/.zshrc: zshrc
+    ~/.password-store: password-store
+
+    ~/.config/ghostty/config: config/ghostty/config
+    ~/.config/ghostty/themes: config/ghostty/themes
+    ~/.config/starship.toml: config/starship.toml
+    ~/.config/mcphub/servers.json: config/mcphub/servers.json
+    ~/.config/nvim: config/nvim
+
+- shell:
+    - [git submodule update --init --recursive --remote, Installing submodules]

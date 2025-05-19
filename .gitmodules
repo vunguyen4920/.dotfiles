@@ -1,0 +1,10 @@
+
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "password-store"]
+	path = password-store
+	url = https://github.com/vunguyen4920/password-store.git
+[submodule "config/nvim"]
+	path = config/nvim
+	url = https://github.com/vunguyen4920/can-i-kickit.git
