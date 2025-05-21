@@ -45,3 +45,7 @@ alias oldvim="\vim"
 
 eval $(/opt/homebrew/bin/brew shellenv)
 eval "$(starship init zsh)"
+eval $(thefuck --alias)
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

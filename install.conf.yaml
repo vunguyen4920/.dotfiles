@@ -22,3 +22,4 @@
     - [git submodule update --init --recursive --remote, Installing submodules]
     - [sh -c ./scripts/setup-homebrew.sh, Setup brew & packages]
     - [sh -c ./scripts/setup-cargo.sh, Setup cargo & packages]
+    - [sh -c ./scripts/setup-ohmyzsh.sh, Setup ohmyzsh]

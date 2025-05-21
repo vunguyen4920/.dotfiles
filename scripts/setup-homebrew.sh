@@ -21,10 +21,13 @@ PACKAGES=(
   "pass"
   "ripgrep"
   "rustup"
+  "thefuck"
   "tmux"
   "uv"
   "wget"
   "zsh"
+  "zsh-autosuggestions"
+  "zsh-syntax-highlighting"
 )
 
 echo "Checking Homebrew packages..."
