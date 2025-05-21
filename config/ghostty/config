@@ -6,3 +6,6 @@ macos-option-as-alt = true
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
+
+font-family = Maple Mono NF
+font-size = 14.5

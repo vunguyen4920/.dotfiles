@@ -30,15 +30,28 @@ PACKAGES=(
   "zsh-syntax-highlighting"
 )
 
+CASK_PACKAGES=(
+  "font-maple-mono-nf"
+)
+
 echo "Checking Homebrew packages..."
 
 list=$(brew list --formulae -1)
+cask_list=$(brew list --cask -1)
 
 for PKG in "${PACKAGES[@]}"
 do
   if ! echo "$list" | grep -q "$PKG"; then
     echo "Homebrew Installing $PKG..."
     brew install $PKG
+  fi
+done
+
+for PKG in "${CASK_PACKAGES[@]}"
+do
+  if ! echo "$cask_list" | grep -q "$PKG"; then
+    echo "Homebrew Cask Installing $PKG..."
+    brew install --cask $PKG
   fi
 done
 
