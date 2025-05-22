@@ -10,6 +10,7 @@ fi
 
 PACKAGES=(
   "bob-nvim"
+  "kanata"
   "kingler"
   "starship"
 )
