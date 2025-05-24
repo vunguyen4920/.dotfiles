@@ -31,7 +31,7 @@ PACKAGES=(
 )
 
 CASK_PACKAGES=(
-  "font-maple-mono-nf"
+  "font-maple-mono-nf-cn"
 )
 
 echo "Checking Homebrew packages..."

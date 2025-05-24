@@ -1,0 +1,22 @@
+(defcfg
+  concurrent-tap-hold yes ;; Important: Must be enabled for chords v2
+  process-unmapped-keys yes
+)
+
+(defsrc
+  a   s   d   f   j   k   l   ;
+)
+
+(defchordsv2
+  (f d) lctl 50 first-release () ;; f and d pressed activates left control
+  (d s) lalt 50 first-release () ;; d and s pressed activates left shift
+  (f s) lmet 50 first-release () ;; s and a pressed activates left alt
+
+  (j k) rctl 50 first-release ()
+  (k l) ralt 50 first-release ()
+  (j l) rmet 50 first-release ()
+)
+
+(deflayer base
+  a   s   d   f   j   k   l   ;
+)
