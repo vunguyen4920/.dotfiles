@@ -8,13 +8,13 @@
 )
 
 (defchordsv2
-  (f d) lctl 50 first-release () ;; f and d pressed activates left control
-  (d s) lalt 50 first-release () ;; d and s pressed activates left shift
-  (f s) lmet 50 first-release () ;; s and a pressed activates left alt
+  (f d) lctl 40 first-release () ;; f and d pressed activates left control
+  (d s) lalt 40 first-release () ;; d and s pressed activates left shift
+  (f s) lmet 40 first-release () ;; s and a pressed activates left alt
 
-  (j k) rctl 50 first-release ()
-  (k l) ralt 50 first-release ()
-  (j l) rmet 50 first-release ()
+  (j k) rctl 40 first-release ()
+  (k l) ralt 40 first-release ()
+  (j l) rmet 40 first-release ()
 )
 
 (deflayer base
