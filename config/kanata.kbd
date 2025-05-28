@@ -7,14 +7,17 @@
   a   s   d   f   j   k   l   ;
 )
 
-(defchordsv2
-  (f d) lctl 40 first-release () ;; f and d pressed activates left control
-  (d s) lalt 40 first-release () ;; d and s pressed activates left shift
-  (f s) lmet 40 first-release () ;; s and a pressed activates left alt
+(deflayermap (base-layer)
+  caps esc)
 
-  (j k) rctl 40 first-release ()
-  (k l) ralt 40 first-release ()
-  (j l) rmet 40 first-release ()
+(defchordsv2
+  (f d) lctl 37 first-release ()
+  (d s) lalt 37 first-release ()
+  (f s) lmet 37 first-release ()
+
+  (j k) rctl 37 first-release ()
+  (k l) ralt 37 first-release ()
+  (j l) rmet 37 first-release ()
 )
 
 (deflayer base
