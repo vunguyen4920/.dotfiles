@@ -12,12 +12,12 @@
 
 (defchordsv2
   (f d) lctl 37 first-release ()
-  (d s) lalt 37 first-release ()
-  (f s) lmet 37 first-release ()
+  (f s) lalt 37 first-release ()
+  (f e) lmet 37 first-release ()
 
   (j k) rctl 37 first-release ()
-  (k l) ralt 37 first-release ()
-  (j l) rmet 37 first-release ()
+  (j l) ralt 37 first-release ()
+  (j i) rmet 37 first-release ()
 )
 
 (deflayer base
