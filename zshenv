@@ -4,3 +4,4 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 export CODESTRAL_API_KEY=$(pass AI/codestral)
 export OPENROUTER_API_KEY=$(pass AI/openrouter)
 . "$HOME/.cargo/env"
+export PATH="$(npm config get prefix)/bin:$PATH"
