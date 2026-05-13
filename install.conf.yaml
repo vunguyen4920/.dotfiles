@@ -1,25 +1,29 @@
 - defaults:
-    link:
-      create: true
-      relink: true
+      link:
+          create: true
+          relink: true
 
 - clean: ["~"]
 
 - link:
-    ~/.gitconfig: gitconfig
-    ~/.vimrc: vimrc
-    ~/.zshenv: zshenv
-    ~/.zshrc: zshrc
-    ~/.password-store: password-store
+      ~/.gitconfig: gitconfig
+      ~/.vimrc: vimrc
+      ~/.zshenv: zshenv
+      ~/.zshrc: zshrc
+      ~/.password-store: password-store
 
-    ~/.config/ghostty/config: config/ghostty/config
-    ~/.config/ghostty/themes: config/ghostty/themes
-    ~/.config/starship.toml: config/starship.toml
-    ~/.config/mcphub/servers.json: config/mcphub/servers.json
-    ~/.config/nvim: config/nvim
+      ~/.config/ghostty/config: config/ghostty/config
+      ~/.config/ghostty/themes: config/ghostty/themes
+      ~/.config/starship.toml: config/starship.toml
+      ~/.config/mcphub/servers.json: config/mcphub/servers.json
+      ~/.config/nvim: config/nvim
+      ~/.config/opencode: config/opencode
 
 - shell:
-    - [git submodule update --init --recursive --remote, Installing submodules]
-    - [sh -c ./scripts/setup-homebrew.sh, Setup brew & packages]
-    - [sh -c ./scripts/setup-cargo.sh, Setup cargo & packages]
-    - [sh -c ./scripts/setup-ohmyzsh.sh, Setup ohmyzsh]
+      - [
+            git submodule update --init --recursive --remote,
+            Installing submodules,
+        ]
+      - [sh -c ./scripts/setup-homebrew.sh, Setup brew & packages]
+      - [sh -c ./scripts/setup-cargo.sh, Setup cargo & packages]
+      - [sh -c ./scripts/setup-ohmyzsh.sh, Setup ohmyzsh]

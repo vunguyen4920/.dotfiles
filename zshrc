@@ -49,4 +49,3 @@ eval $(thefuck --alias)
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"

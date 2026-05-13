@@ -2,10 +2,9 @@
 #
 # Install homebrew and essential packages
 
-echo "* This should be installed by Homebrew"
 if ! type cargo > /dev/null 2>&1; then
   echo "Installing Cargo ~ Rustup..."
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  /bin/bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --no-modify-path)"
 fi
 
 PACKAGES=(
@@ -13,6 +12,7 @@ PACKAGES=(
   "kanata"
   "kingler"
   "starship"
+  "tree-sitter-cli"
 )
 
 echo "Checking Cargo packages..."
@@ -23,7 +23,7 @@ for PKG in "${PACKAGES[@]}"
 do
   if ! echo "$list" | grep -q "$PKG"; then
     echo "Cargo Installing $PKG..."
-    cargo install $PKG
+    cargo install --locked $PKG
   fi
 done
 

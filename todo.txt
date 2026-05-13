@@ -1,0 +1,6 @@
+- generative AI agentic tools install scripts:
+    - curl -LsSf https://aider.chat/install.sh | sh
+    - curl -fsSL https://ollama.com/install.sh | sh
+    - curl -fsSL https://opencode.ai/install | bash
+    - curl -fsSL https://claude.ai/install.sh | bash
+    - curl https://cursor.com/install -fsS | bash

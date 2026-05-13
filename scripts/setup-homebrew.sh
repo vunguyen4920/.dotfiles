@@ -20,7 +20,6 @@ PACKAGES=(
   "imagemagick"
   "pass"
   "ripgrep"
-  "rustup"
   "thefuck"
   "tmux"
   "uv"
