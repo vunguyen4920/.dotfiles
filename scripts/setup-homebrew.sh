@@ -27,6 +27,7 @@ PACKAGES=(
   "zsh"
   "zsh-autosuggestions"
   "zsh-syntax-highlighting"
+  "charmbracelet/tap/crush"
 )
 
 CASK_PACKAGES=(

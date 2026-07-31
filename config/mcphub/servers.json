@@ -1,13 +1,25 @@
 {
-  "mcpServers": {
-    "git": {
-      "args": ["mcp-server-git"],
-      "command": "uvx"
+    "mcpServers": {
+        "git": {
+            "args": [
+                "mcp-server-git"
+            ],
+            "command": "uvx"
+        },
+        "context7": {
+            "args": [
+                "-y",
+                "@upstash/context7-mcp@latest"
+            ],
+            "command": "npx"
+        },
+        "nuxt": {
+            "command": "npx",
+            "args": [
+                "mcp-remote",
+                "https://nuxt.com/mcp"
+            ]
+        }
     },
-    "context7": {
-      "args": ["-y", "@upstash/context7-mcp@latest"],
-      "command": "npx"
-    }
-  },
-  "nativeMCPServers": []
+    "nativeMCPServers": []
 }
